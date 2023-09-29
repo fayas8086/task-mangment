@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function App() {
   return (
     <div className="App">
-          <Navbar expand="lg" variant="light" bg="light">
+          <Navbar expand="lg" variant="light" bg="black">
       <Container>
         <Navbar.Brand href="#"><h1>Task Managment App</h1> </Navbar.Brand>
       </Container>

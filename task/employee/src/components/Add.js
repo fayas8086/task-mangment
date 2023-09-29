@@ -70,10 +70,10 @@ const body={
   </Form.Group>
 
 
-  <Button onClick={(e)=>addEmployee(e)} className="ms-5" variant="success">Add Task</Button>
+  <Button onClick={(e)=>addEmployee(e)} className="ms-5" style={{background:"black"}} >Add Task</Button>
 
   <Link to={'/'}>
-      <Button className="ms-5" variant="warning">Cancel</Button>
+      <Button className="ms-5" style={{background:"red"}}>Cancel</Button>
       </Link>
 </Form>
 

@@ -71,7 +71,7 @@ onChange={(e)=>setUname(e.target.value)}/>
 onChange={(e)=>setDesig(e.target.value)}/>
   </Form.Group>
  
-  <Button onClick={(e)=>handleUpdate(e)} style={{textAlign:'center'}}  className="mt-3" variant="primary">Update</Button>
+  <Button onClick={(e)=>handleUpdate(e)} style={{textAlign:'center', background:"black"}}  className="mt-3" >Update</Button>
 
 </Form>
 
